@@ -1,5 +1,6 @@
 import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
+import Logo from "../../assets/logo.svg";
 
 const NavbarMenu = [
     {
@@ -9,22 +10,22 @@ const NavbarMenu = [
     },
     {
         id: 2,
-        title: "Services",
+        title: "Admissions",
         path: "#",
     },
     {
         id: 3,
-        title: "About",
+        title: "Research",
         path: "#",
     },
     {
         id: 4,
-        title: "Contact",
+        title: "News & Events",
         path: "#",
     },
     {
         id: 5,
-        title: "Blog",
+        title: "About",
         path: "#",
     },
 ]
@@ -38,7 +39,7 @@ const Navbar = () => {
 
             {/* Logo */}
             <div>
-                <h1 className="font-bold text-2xl">Oxford University</h1>
+                <img src={Logo} alt="" className="w-72"/>
             </div>
 
             {/* Menu */}
