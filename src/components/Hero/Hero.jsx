@@ -29,7 +29,7 @@ const Hero = () => {
     <Navbar />
 
     <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
-        {/* Brand Info */}
+        {/* Main Info */}
         <div className='flex flex-col justify-center py-14 md:py-0 relative z-20'>
             <div className="text-center md:text-left space-y-10 lg:max-w-[400px]">
             <motion.h1 
@@ -37,7 +37,7 @@ const Hero = () => {
             initial="initial"
             animate="animate"
             className="text-3xl lg:text-5xl font-bold !leading-snug">
-                Let&apos;s Learn to build a <span className="text-secondary">Website</span> for your business
+                The light of <span className="text-secondary">knowledge</span> always guides us
             </motion.h1>
 
             <motion.div 
