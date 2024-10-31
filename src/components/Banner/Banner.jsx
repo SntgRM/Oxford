@@ -36,7 +36,7 @@ const Banner = () => {
                         viewport={{ once: true }}
                         className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl">
                             <GiGraduateCap className="text-3xl"/>
-                            <p className="text-lg">26000+ students on site</p>
+                            <p className="text-lg">Get certified with the best prestige in the world</p>
                         </motion.div>
 
                         <motion.div
