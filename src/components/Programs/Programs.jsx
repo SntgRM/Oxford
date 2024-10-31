@@ -76,7 +76,7 @@ const Programs = () => {
   return (
   <section className="bg-white">
     <div className="container pb-14 pt-16">
-        <h1 className="text-4xl font-bold text-left pb-10">Learning programs
+        <h1 className="text-4xl font-bold text-left pb-10">Our principal programs
         </h1>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
