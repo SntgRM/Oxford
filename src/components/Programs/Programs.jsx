@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 const ProgramsData = [
   {
     id: 1,
-    title: "Philosophy, Politics and Economics (PPE)",
+    title: "Business and Management",
     link: "#",
     icon: <FaDollarSign />,
     delay: 0.2,
@@ -89,8 +89,8 @@ const Programs = () => {
               whileInView={"animate"}
               viewport={{ once: true }}
               className="bg-[#f4f4f4] rounded-2xl flex flex-col gap-4 items-center justify-center p-4 py-7 hover:bg-white hover:scale-110 duration-300 hover:shadow-2xl">
-              <div className="text-4xl mb-4">{program.icon}</div>
-              <h1 className="text-lg font-semibold text-center px-3">{program.title}</h1>
+              <div className="text-4xl mb-4 flex-grow flex items-center justify-center">{program.icon}</div>
+              <h1 className="text-lg font-semibold text-center px-3 flex-grow">{program.title}</h1>
             </motion.div>
           ))
         }
