@@ -25,7 +25,8 @@ export const FadeUp = (delay) => {
 }
 
 const Hero = () => {
-  return <section className="bg-light overflow-hidden relative">
+  return (
+  <section className="bg-light overflow-hidden relative">
     <Navbar />
 
     <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
@@ -67,8 +68,8 @@ const Hero = () => {
         </div>
     </div>
 
-  </section>;
-  
+  </section>
+  );
 };
 
 export default Hero;
